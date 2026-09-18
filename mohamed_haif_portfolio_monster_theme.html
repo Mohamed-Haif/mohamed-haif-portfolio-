@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mohamed Haif | Data Analytics</title>
+<style>
+:root{--bg:#050805;--card:#0d120d;--text:#f5f7f3;--muted:#9da79b;--g:#9cff00;--g2:#39ff14;--line:#263026}
+.light{--bg:#f5f8f3;--card:#fff;--text:#111610;--muted:#5e685c;--g:#4f9900;--g2:#247d00;--line:#d5ded1}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;transition:.25s}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.07;background-image:linear-gradient(transparent 96%,var(--g) 97%),linear-gradient(90deg,transparent 96%,var(--g) 97%);background-size:40px 40px}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:9;background:#050805dd;backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.light nav{background:#f5f8f3dd}.nav{height:70px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:900;letter-spacing:1px}.logo i{color:var(--g);font-style:normal}
+.links{display:flex;gap:24px;color:var(--muted);font-size:14px}.links a:hover{color:var(--g)}
+button{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:20px;padding:8px 12px;cursor:pointer}
+.hero{min-height:88vh;display:grid;align-items:center;padding:80px 0}.heroGrid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
+.kicker{color:var(--g);font-size:12px;font-weight:900;letter-spacing:3px}
+h1{font-size:clamp(58px,9vw,120px);line-height:.82;letter-spacing:-7px;margin:22px 0}
+.outline{color:transparent;-webkit-text-stroke:1.5px var(--g)}.lead{max-width:620px;color:var(--muted);font-size:18px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:12px 18px;border:1px solid var(--line);border-radius:8px;font-weight:800}.primary{background:var(--g);color:#081000;border-color:var(--g)}
+.visual{height:420px;display:grid;place-items:center;position:relative}.ring{width:320px;height:320px;border:1px solid var(--g);border-radius:50%;display:grid;place-items:center;transform:rotate(-12deg);box-shadow:0 0 80px #39ff1422}
+.monogram{width:190px;height:190px;border:11px solid var(--g);border-radius:50%;display:grid;place-items:center;color:var(--g);font-size:65px;font-weight:1000}
+.float{position:absolute;background:var(--card);border:1px solid var(--line);padding:10px 13px;font-size:12px;font-weight:800;box-shadow:7px 7px 0 #9cff0030}.a{top:12%;right:0}.b{bottom:15%;left:0}.c{top:50%;right:-5%}
+section{padding:90px 0}.head{display:flex;justify-content:space-between;gap:25px;align-items:end;margin-bottom:28px}.head p{max-width:520px;color:var(--muted)}
+h2{font-size:38px;letter-spacing:-2px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.card{grid-column:span 6;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;transition:.2s}.card:hover{transform:translateY(-4px);border-color:var(--g)}
+.wide{grid-column:span 8}.small{grid-column:span 4}.full{grid-column:span 12}.card p,.card li{color:var(--muted)}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.tag{border:1px solid var(--line);padding:5px 9px;border-radius:5px;font-size:12px}
+.big{font-size:48px;font-weight:900;color:var(--g)}.project{min-height:320px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(135deg,var(--card),#9cff0008)}
+.num{color:var(--g);font-size:12px;font-weight:900;letter-spacing:2px}.project h3{font-size:32px;margin:8px 0}
+.timeline{border-left:2px solid var(--g);padding-left:22px}.item{margin-bottom:25px}.item:last-child{margin:0}
+.contact{text-align:center;border:1px solid var(--g);border-radius:16px;padding:50px 20px}.contact p{color:var(--muted);margin:10px auto 20px;max-width:650px}
+footer{text-align:center;color:var(--muted);padding:25px;border-top:1px solid var(--line);font-size:13px}
+@media(max-width:780px){.links{display:none}.heroGrid{grid-template-columns:1fr}.visual{height:330px}.ring{width:260px;height:260px}.monogram{width:155px;height:155px;font-size:50px}.card,.wide,.small,.full{grid-column:span 12}h1{letter-spacing:-4px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="logo" href="#top">MOHAMED<i>_</i>HAIF</a><div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#work">Work</a><a href="#contact">Contact</a></div><button onclick="toggleTheme()">☾ / ☀</button></div></nav>
+
+<main id="top">
+<section class="hero"><div class="wrap heroGrid">
+<div><div class="kicker">DATA ANALYTICS / IT</div><h1>DATA<br><span class="outline">WITH</span><br>IMPACT.</h1>
+<p class="lead">I'm <b>Mohamed Haif</b>, a B.Tech IT student focused on data analysis, visualization, and turning large datasets into useful insights.</p>
+<div class="cta"><a class="btn primary" href="#work">EXPLORE WORK →</a><a class="btn" href="mailto:mohamedhaif1217@gmail.com">CONTACT</a></div></div>
+<div class="visual"><div class="ring"><div class="monogram">MH</div></div><div class="float a">POWER BI · EXCEL</div><div class="float b">PYTHON · SQL</div><div class="float c">CGPA 7.37 / 10</div></div>
+</div></section>
+
+<section id="about"><div class="wrap"><div class="head"><h2>01 / About</h2><p>A practical portfolio based on my academic background, internship, certifications and project experience.</p></div>
+<div class="grid"><div class="card wide"><h3>Career Objective</h3><p>Seeking a data-driven role to apply my analytical and problem-solving skills toward organizational growth.</p></div>
+<div class="card small"><div class="big">03</div><p>Year B.Tech IT student</p></div>
+<div class="card"><h3>Education</h3><p><b>B.Tech in Information Technology</b><br>Dhanalakshmi Srinivasan University, Trichy, Samayapuram<br>CGPA: 7.37 / 10</p></div>
+<div class="card"><h3>Languages</h3><p>English — Fluent · Tamil — Fluent<br>Hindi — Intermediate · Urdu — Intermediate</p></div></div></div></section>
+
+<section id="skills"><div class="wrap"><div class="head"><h2>02 / Skills</h2><p>Core tools and technical areas used for data analysis and visualization.</p></div>
+<div class="grid"><div class="card"><h3>Programming</h3><div class="tags"><span class="tag">Python</span><span class="tag">C</span><span class="tag">SQL</span></div></div>
+<div class="card"><h3>Analytics</h3><div class="tags"><span class="tag">Data Analysis</span><span class="tag">Visualization</span><span class="tag">Reporting</span></div></div>
+<div class="card"><h3>Tools</h3><div class="tags"><span class="tag">Power BI</span><span class="tag">Excel</span><span class="tag">VS Code</span><span class="tag">Linux</span></div></div></div></div></section>
+
+<section id="experience"><div class="wrap"><div class="head"><h2>03 / Experience</h2><p>Hands-on training in data analytics and business reporting.</p></div>
+<div class="card full timeline"><div class="item"><h3>Data Analytics — VDart Academy</h3><p><b>On-the-Job Training · July 2025 – August 2025</b></p><p>Worked with Excel and Power BI for data analysis, visualization and reporting using real-world datasets.</p></div>
+<div class="item"><h3>Certifications</h3><p>Data Science & Analytics — HP LIFE (2024)</p><p>Effective Leadership — HP LIFE (2024)</p></div></div></div></section>
+
+<section id="work"><div class="wrap"><div class="head"><h2>04 / Selected Work</h2><p>Featured project from my current portfolio.</p></div>
+<div class="card full project"><div><div class="num">01 — POWER BI DASHBOARD</div><h3>Car Sales Analysis</h3><p>Interactive dashboard analyzing <b>1,00,000+ car sales records</b> with KPIs, transmission/body-type breakdowns, and brand- and state-wise trends.</p>
+<div class="tags"><span class="tag">Dynamic Filters</span><span class="tag">State</span><span class="tag">Brand</span><span class="tag">Year</span><span class="tag">Month</span></div></div>
+<p><b>Selling Price vs. MMR</b> comparison added for pricing insights.</p></div></div></section>
+
+<section id="contact"><div class="wrap contact"><div class="kicker">05 / CONTACT</div><h2>LET'S CONNECT.</h2><p>Interested in opportunities involving data analytics, visualization and technology.</p><div class="cta" style="justify-content:center"><a class="btn primary" href="mailto:mohamedhaif1217@gmail.com">EMAIL ME</a><a class="btn" target="_blank" href="https://www.linkedin.com/in/mohamed-haif-115241ooo54">LINKEDIN ↗</a></div><p>+91 9787664966</p></div></section>
+</main>
+<footer>© 2026 Mohamed Haif · Data Analytics Portfolio</footer>
+<script>
+function toggleTheme(){document.body.classList.toggle('light');localStorage.setItem('theme',document.body.classList.contains('light')?'light':'dark')}
+if(localStorage.getItem('theme')==='light')document.body.classList.add('light');
+</script>
+</body></html>
